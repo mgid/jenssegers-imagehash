@@ -13,7 +13,7 @@ class AverageHash implements Implementation
         $this->size = $size;
     }
 
-    public function hash(Image $image): Hash
+    public function hash(ImageInterface $image): Hash
     {
         // Resize the image.
         $resized = $image->resize($this->size, $this->size);

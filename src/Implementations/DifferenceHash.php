@@ -1,6 +1,6 @@
 <?php namespace Jenssegers\ImageHash\Implementations;
 
-use Intervention\Image\Image;
+use Intervention\Image\Interfaces\ImageInterface;
 use Jenssegers\ImageHash\Hash;
 use Jenssegers\ImageHash\Implementation;
 

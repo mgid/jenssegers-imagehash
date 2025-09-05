@@ -13,7 +13,7 @@ class DifferenceHash implements Implementation
         $this->size = $size;
     }
 
-    public function hash(Image $image): Hash
+    public function hash(ImageInterface $image): Hash
     {
         // For this implementation we create a 8x9 image.
         $width = $this->size + 1;

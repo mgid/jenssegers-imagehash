@@ -31,7 +31,7 @@ class PerceptualHash implements Implementation
         $this->comparisonMethod = $comparisonMethod;
     }
 
-    public function hash(Image $image): Hash
+    public function hash(ImageInterface $image): Hash
     {
         // Resize the image.
         $resized = $image->resize($this->size, $this->size);

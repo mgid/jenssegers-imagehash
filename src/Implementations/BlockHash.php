@@ -2,7 +2,7 @@
 
 namespace Jenssegers\ImageHash\Implementations;
 
-use Intervention\Image\Image;
+use Intervention\Image\Interfaces\ImageInterface;
 use InvalidArgumentException;
 use Jenssegers\ImageHash\Hash;
 use Jenssegers\ImageHash\Implementation;

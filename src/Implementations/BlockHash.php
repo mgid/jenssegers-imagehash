@@ -37,7 +37,7 @@ class BlockHash implements Implementation
         $this->mode = $mode;
     }
 
-    public function hash(Image $image): Hash
+    public function hash(ImageInterface $image): Hash
     {
         if ($this->mode === self::QUICK) {
             return $this->even($image);
